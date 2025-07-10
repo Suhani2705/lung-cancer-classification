@@ -12,11 +12,11 @@ This project classifies lung histopathology images into multiple cancer types us
   - `Lung Squamous Cell Carcinoma` (malignant)
 
 - **Approach**:
-  - ✅ Train three CNN models:
+  - Train three CNN models:
     - EfficientNetB0 (fine-tuned)
     - VGG16 (pretrained)
     - InceptionV3 (pretrained)
-  - ✅ Use **stacking ensemble**:
+  - Use **stacking ensemble**:
     - Combine their predictions
     - Feed into **Logistic Regression** as meta-classifier
 
@@ -56,7 +56,6 @@ This project classifies lung histopathology images into multiple cancer types us
 
 4. **Evaluation**:
    - Accuracy, F1-score, Confusion Matrix
-   - ROC-AUC for multi-class
-   - Visualizations using Grad-CAM (optional)
+   - Comparison of actual vs predicted labels
 
 ---
